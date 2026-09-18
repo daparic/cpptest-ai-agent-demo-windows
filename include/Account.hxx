@@ -13,7 +13,7 @@ class Account
             myAccountNumber = 0;
             myBalance = 0.0;
         }
-        Account(double initial)
+        explicit Account(double initial)
         {
             myAccountNumber = 0;
             myBalance = initial;
