@@ -24,8 +24,8 @@ Account* Bank::getAccount(int num, const string& password)
         // account wrong if account number does not match
         userAccount = NULL;
     }
-    // No account with this number/password exists!!!
-    return NULL;
+    // Return the matching account, or NULL if the number/password is invalid.
+    return userAccount;
 
 }
 
