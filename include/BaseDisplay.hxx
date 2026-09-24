@@ -7,7 +7,7 @@ class BaseDisplay
     public:
 
         BaseDisplay() {};
-        ~BaseDisplay() {};
+        virtual ~BaseDisplay() {};
 
         virtual void showInfoToUser(const char* message);
         virtual void showBalance(double balance);

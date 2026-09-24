@@ -13,7 +13,7 @@ class Bank
         Bank();
         ~Bank();
 
-        Account* getAccount(int num, string password);
+        Account* getAccount(int num, const string& password);
         Account* addAccount();
 
     private:
