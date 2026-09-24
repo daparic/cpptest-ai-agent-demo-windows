@@ -1,0 +1,10 @@
+{
+	"servers": {
+		"cpptest-std-mcp": {
+			"type": "stdio",
+			"command": "C:\\p\\cpptest_standard-2026.1.0-win32.x86_64\\cpptest\\integration\\mcp\\cpptestmcp.exe",
+			"args": []
+		}
+	},
+	"inputs": []
+}
