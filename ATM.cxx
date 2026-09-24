@@ -2,12 +2,13 @@
 #include "BaseDisplay.hxx"
 
 ATM::ATM(Bank* bank, BaseDisplay* display)
+    : myCurrentAccount(nullptr)
 {
     myBank = bank;
     myDisplay = display;
 }
 
-void ATM::viewAccount(int accountNumber, string password)
+void ATM::viewAccount(int accountNumber, const string& password)
 {
     if ( !(myCurrentAccount = myBank->getAccount(accountNumber, password)) )
     {
