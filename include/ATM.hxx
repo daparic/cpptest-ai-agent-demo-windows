@@ -33,6 +33,7 @@ class ATM
        	Account* myCurrentAccount;
         Bank* myBank;
         BaseDisplay* myDisplay;
+        int flag = 0;
 
 };
 
